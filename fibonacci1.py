@@ -1,0 +1,10 @@
+n = 10
+a = 0
+b = 1
+count = 1
+next = b
+while count <= n:
+    print(next, end="")
+    count += 1
+    a, b = b, next
+    next = a + b
